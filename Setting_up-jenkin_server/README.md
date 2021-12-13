@@ -21,5 +21,5 @@
 
 ## Creating Jenkins server
 - Step 1:
- - Create an ec2 instance for jenkins
+  - Create an ec2 instance for jenkins
 
