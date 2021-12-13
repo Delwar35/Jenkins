@@ -41,6 +41,12 @@ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sour
 sudo apt install jenkins
 ```
 
+- Step 4: open jenkins
+  - ec2 ip:8080 e.g. `34.242.6.44:8080`
+
+- Step 5: Enter Administrator password
+  - `sudo cat /var/lib/jenkins/secrets/initialAdminPassword` will show the administrator password
+
 > link to usefull doc to help install jenkins (https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04) 
 
 
