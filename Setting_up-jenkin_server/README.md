@@ -21,5 +21,25 @@
 
 ## Creating Jenkins server
 
+> To use Jenkins Java needs to be installed
 - Step 1: Create an ec2 instance for jenkins
-- Step 2: Install jenkins on ec2 instance
+- Step 2: Install Java
+
+```
+sudo apt update
+sudo apt install openjdk-11-jdk
+```
+ > `sudo apt search openjdk` can be used to see what JDK are available. The code above installs JDK 11
+
+`java -version` to check the installation 
+
+- Step 3: Install jenkins on ec2 instance
+
+```
+sudo wget -O /etc/yum.repos.d/jenkins.repo \https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+sudo dnf upgrade
+# Add required dependencies for the jenkins package
+sudo dnf install chkconfig java-devel
+sudo dnf install jenkins
+```
