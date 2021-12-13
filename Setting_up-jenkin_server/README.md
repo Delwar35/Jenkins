@@ -20,6 +20,6 @@
 ![image](https://user-images.githubusercontent.com/94615905/145810930-7b12a304-01fd-4a39-b480-126c08c6f365.png)
 
 ## Creating Jenkins server
-- Step 1:
-  - Create an ec2 instance for jenkins
 
+- Step 1: Create an ec2 instance for jenkins
+- Step 2: Install jenkins on ec2
