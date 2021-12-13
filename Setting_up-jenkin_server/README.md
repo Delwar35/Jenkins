@@ -10,6 +10,13 @@
 - Deploy it in your own VPC - public and private subnets for app private for db
 - Aim is to see all three pages working - home page - Fibonacci/4 - /posts
 
+## Diagrams
+### Overview 
+
+![image](https://user-images.githubusercontent.com/94615905/145805744-590675a2-559e-4c71-ad01-99d5b746e722.png)
+
+### AWS
+
 
 ## Creating Jenkins server
 
