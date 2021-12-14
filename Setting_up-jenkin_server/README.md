@@ -70,7 +70,7 @@ You should see the Unlock Jenkins screen.
 
 ![image](https://user-images.githubusercontent.com/94615905/146039168-22366502-1411-4ddd-a3a4-58949891e3af.png)
 
-Step 10: Click save and finish
+- Step 10: Click save and finish
   - You will see a confirmation page confirming that “Jenkins is Ready!”
   
   ![image](https://user-images.githubusercontent.com/94615905/146039410-b5737986-5110-430e-b012-c2000d6c20f2.png)
