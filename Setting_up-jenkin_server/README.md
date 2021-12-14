@@ -76,7 +76,8 @@ You should see the Unlock Jenkins screen.
   ![image](https://user-images.githubusercontent.com/94615905/146039410-b5737986-5110-430e-b012-c2000d6c20f2.png)
   
   - Click Start using Jenkins to go to the main Jenkins dashboard and start to use Jenkins
-
+  
+  > Jenkis is now all setup and ready to use
 
 
  
